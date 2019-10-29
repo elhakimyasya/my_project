@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Syntax Hightlight Parse</title>
+</head>
+<body>
+	<div style="text-align: center; width: 100%;">
+		<div style="margin: 0 auto; padding: 0; width: 100%;">
+			<div id="mainDiv" style="padding: 2px 0;">
+				<select id="lang" style="width: 100%;border: 0.0625rem solid rgb(218 , 220 , 224);height: 37px;line-height: 10px;outline: none;font-family: inherit;">
+					<option value="bash">Bash</option>
+					<option value="cpp">C++</option>
+					<option value="c">C</option>
+					<option value="css">CSS</option>
+					<option value="coffeescript">CoffeeScript</option>
+					<option value="diff">Diff</option>
+					<option value="go">Go</option>
+					<option value="html">HTML / XML</option>
+					<option value="ini">INI</option>
+					<option value="javascript">JavaScript</option>
+					<option value="java">Java</option>
+					<option value="json">JSON</option>
+					<option value="markdown">Markdown</option>
+					<option value="objectivec">Objective C</option>
+					<option value="python">Python</option>
+					<option value="php">PHP</option>
+					<option value="ruby">Ruby</option>
+					<option value="sql">SQL</option>
+					<option value="swift">Swift</option>
+					<option value="typescript">TypeScript</option>
+				</select>
+				<textarea cols="21" id="tarea" onfocus="code_check();" rows="10" style="border: 0.0625rem solid rgb(218 , 220 , 224); font-size: 12px; height: 100%; padding: 10px; resize: vertical; width: 100%;"></textarea>
+				<br />
+				<div style="margin: 0 auto; padding: 5px 0; width: 95%;">
+					<a class="button" href="javascript:void(0);" onclick="code_convert();" style="margin-right: 5px;" type="button">Generate</a>
+					<a class="button" href="javascript:void(0);" onclick="code_clear();" style="margin-left: 5px;" type="button">Clear</a> 
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="./script/script.js"></script>
+</body>
+</html>
