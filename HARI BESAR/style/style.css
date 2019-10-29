@@ -1,0 +1,53 @@
+.celebrate {
+	min-height: 120px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 10px 20px;
+	border: 3px solid #212121;
+	line-height: 29px;
+	margin-top: 30px
+}
+
+.celetext {
+	font-size: 19px;
+	font-weight: 500
+}
+
+.celetext::before {
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAALBAMAAABSacpvAAAALVBMVEUAAAC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLRK0HxpAAAADnRSTlMAd+67mWZR3SKqMxGIzB8/1rAAAABlSURBVAjXFcexDQEBAAXQd+KCRm4CDZURFGICMYFadTHBxQQmEDHCzWAI9XGJ8s/ANS95FBvccKwYr5kuUQ/5omm5dpQ9Fu+H2efEPX07Sg62f+bJ2T6pJkmnTi5FslM2L56r9geMACBhjTsodgAAAABJRU5ErkJggg==) no-repeat;
+	left: 0;
+	display: block;
+	content: '';
+	width: 15px;
+	height: 15px;
+	margin: 15px 0
+}
+
+.celedate {
+	font-size: 13px
+}
+
+.celedate::before {
+	content: '';
+	display: block;
+	height: 3px;
+	background: #212121;
+	width: 45px;
+	margin: 15px 0 2px 0
+}
+
+.elcorg {
+	font-size: 11px;
+	text-align: right;
+	color: #5d6166
+}
+
+.dark-mode .celebrate {
+	border-color: #fff
+}
+
+.dark-mode .celedate::before {
+	background: #fff
+}
+
