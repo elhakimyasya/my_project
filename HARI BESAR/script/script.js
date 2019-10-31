@@ -546,6 +546,11 @@ $(function() {
             $('.celedate').append('1 Oktober' + years);
             $(this).show();
 
+        } else if (currentDate == '3 November') {
+            $('.celetext').append('Memperingati Hari Ulang Tahun EL Creative Organization yang ke-6');
+            $('.celedate').append('3 November' + years);
+            $(this).show();
+
         } else if (currentDate == '5 November') {
             $('.celetext').append('Memperingati Hari Cinta Puspa dan Satwa Nasional');
             $('.celedate').append('5 November' + years);
