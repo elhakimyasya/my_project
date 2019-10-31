@@ -8,14 +8,14 @@ $(function() {
     $(".celebrate").each(function() {
         var specifiedDate = currentDate;
         // Januari
-        if (specifiedDate == '03 Januari') {
+        if (specifiedDate == '3 Januari') {
             $('.celetext').append('Memperingati Hari Departemen Agama Republik Indonesia');
-            $('.celedate').append('03 Januari' + years);
+            $('.celedate').append('3 Januari' + years);
             $(this).show();
 
-        } else if (specifiedDate == '05 Januari') {
+        } else if (specifiedDate == '5 Januari') {
             $('.celetext').append('Memperingati Hari Korps Wanita Angkatan Laut');
-            $('.celedate').append('05 Januari' + years);
+            $('.celedate').append('5 Januari' + years);
             $(this).show();
             
         } else if (specifiedDate == '10 Januari') {
@@ -40,14 +40,14 @@ $(function() {
             
         } 
         // Februari
-        else if (specifiedDate == '05 Februari') {
+        else if (specifiedDate == '5 Februari') {
             $('.celetext').append('Memperingati Hari Peristiwa Kapal Tujuh, Hari Lahir Himpunan Mahasiswa Islam (HMI)');
-            $('.celedate').append('05 Februari' + years);
+            $('.celedate').append('5 Februari' + years);
             $(this).show();
             
-        } else if (specifiedDate == '09 Februari') {
+        } else if (specifiedDate == '9 Februari') {
             $('.celetext').append('Memperingati Hari Kavaleri dan Hari Pers Nasional');
-            $('.celedate').append('09 Februari' + years);
+            $('.celedate').append('9 Februari' + years);
             $(this).show();
             
         } else if (specifiedDate == '14 Februari') {
@@ -77,9 +77,9 @@ $(function() {
             
         } 
         // Maret
-        else if (specifiedDate == '01 Maret') {
+        else if (specifiedDate == '1 Maret') {
             $('.celetext').append('Memperingati Hari Kehakiman Nasional dan Hari Serangan Umum di Yogyakarta');
-            $('.celedate').append('01 Maret' + years);
+            $('.celedate').append('1 Maret' + years);
             $(this).show();
             
         } else if (specifiedDate == '06 Maret') {
@@ -87,14 +87,14 @@ $(function() {
             $('.celedate').append('06 Maret' + years);
             $(this).show();
             
-        } else if (specifiedDate == '08 Maret') {
+        } else if (specifiedDate == '8 Maret') {
             $('.celetext').append('Memperingati Hari Wanita/Perempuan Internasional');
-            $('.celedate').append('08 Maret' + years);
+            $('.celedate').append('8 Maret' + years);
             $(this).show();
             
-        } else if (specifiedDate == '09 Maret') {
+        } else if (specifiedDate == '9 Maret') {
             $('.celetext').append('Memperingati Hari Musik Nasional');
-            $('.celedate').append('09 Maret' + years);
+            $('.celedate').append('9 Maret' + years);
             $(this).show();
             
         } else if (specifiedDate == '10 Maret') {
@@ -144,9 +144,9 @@ $(function() {
             
         } 
         // April
-        else if (specifiedDate == '01 April') {
+        else if (specifiedDate == '1 April') {
             $('.celetext').append('Memperingati Hari Bank Dunia, Hari Marketing Indonesia (Hamari), dan Hari Penyiaran Nasional');
-            $('.celedate').append('01 April' + years);
+            $('.celedate').append('1 April' + years);
             $(this).show();
             
         } else if (specifiedDate == '06 April') {
@@ -159,9 +159,9 @@ $(function() {
             $('.celedate').append('07 April' + years);
             $(this).show();
             
-        } else if (specifiedDate == '09 April') {
+        } else if (specifiedDate == '9 April') {
             $('.celetext').append('Memperingati Hari Penerbangan Nasional dan Hari TNI Angkatan Udara');
-            $('.celedate').append('09 April' + years);
+            $('.celedate').append('9 April' + years);
             $(this).show();
             
         } else if (specifiedDate == '12 April') {
@@ -231,19 +231,19 @@ $(function() {
             
         } 
         // Mei
-        else if (specifiedDate == '01 Mei') {
+        else if (specifiedDate == '1 Mei') {
             $('.celetext').append('Memperingati Hari Peringatan Pembebasan Irian Barat dan Hari Buruh Sedunia');
-            $('.celedate').append('01 Mei' + years);
+            $('.celedate').append('1 Mei' + years);
             $(this).show();
             
-        } else if (specifiedDate == '02 Mei') {
+        } else if (specifiedDate == '2 Mei') {
             $('.celetext').append('Memperingati Hari Pendidikan Nasional (Hardiknas)');
-            $('.celedate').append('02 Mei' + years);
+            $('.celedate').append('2 Mei' + years);
             $(this).show();
             
-        } else if (specifiedDate == '05 Mei') {
+        } else if (specifiedDate == '5 Mei') {
             $('.celetext').append('Memperingati Hari Lembaga Sosial Desa (LSD)');
-            $('.celedate').append('05 Mei' + years);
+            $('.celedate').append('5 Mei' + years);
             $(this).show();
             
         } else if (specifiedDate == '10 Mei') {
@@ -293,21 +293,21 @@ $(function() {
             $(this).show();
         }
         // Juni
-        else if (specifiedDate == '01 Juni') {
+        else if (specifiedDate == '1 Juni') {
             $('.celetext').append('Memperingati Hari Lahir Pancasila, Hari Perlindungan Anak-anak Sedunia, dan Hari Susu Nusantara');
-            $('.celedate').append('01 Juni' + years);
+            $('.celedate').append('1 Juni' + years);
             $(this).show();
-        } else if (specifiedDate == '03 Juni') {
+        } else if (specifiedDate == '3 Juni') {
             $('.celetext').append('Memperingati Hari Pasar Modal Indonesia');
-            $('.celedate').append('03 Juni' + years);
+            $('.celedate').append('3 Juni' + years);
             $(this).show();
-        } else if (specifiedDate == '05 Juni') {
+        } else if (specifiedDate == '5 Juni') {
             $('.celetext').append('Memperingati Hari Lingkungan Hidup Sedunia');
-            $('.celedate').append('05 Juni' + years);
+            $('.celedate').append('5 Juni' + years);
             $(this).show();
-        } else if (specifiedDate == '08 Juni') {
+        } else if (specifiedDate == '8 Juni') {
             $('.celetext').append('Memperingati Hari Laut Sedunia');
-            $('.celedate').append('08 Juni' + years);
+            $('.celedate').append('8 Juni' + years);
             $(this).show();
         } else if (specifiedDate == '10 Juni') {
             $('.celetext').append('Memperingati Hari Media Sosial');
@@ -343,21 +343,21 @@ $(function() {
             $(this).show();
         }
         // Juli
-        else if (specifiedDate == '01 Juli') {
+        else if (specifiedDate == '1 Juli') {
             $('.celetext').append('Memperingati Hari Bhayangkara dan Hari Buah');
-            $('.celedate').append('01 Juli' + years);
+            $('.celedate').append('1 Juli' + years);
             $(this).show();
-        } else if (specifiedDate == '02 Juli') {
+        } else if (specifiedDate == '2 Juli') {
             $('.celetext').append('Memperingati Hari Kelautan Nasional');
-            $('.celedate').append('02 Juli' + years);
+            $('.celedate').append('2 Juli' + years);
             $(this).show();
-        } else if (specifiedDate == '05 Juli') {
+        } else if (specifiedDate == '5 Juli') {
             $('.celetext').append('Memperingati Hari Bank Indonesia');
-            $('.celedate').append('05 Juli' + years);
+            $('.celedate').append('5 Juli' + years);
             $(this).show();
-        } else if (specifiedDate == '09 Juli') {
+        } else if (specifiedDate == '9 Juli') {
             $('.celetext').append('Memperingati Hari Satelit Palapa');
-            $('.celedate').append('09 Juli' + years);
+            $('.celedate').append('9 Juli' + years);
             $(this).show();
         } else if (specifiedDate == '12 Juli') {
             $('.celetext').append('Memperingati Hari Koperasi');
@@ -385,13 +385,13 @@ $(function() {
             $(this).show();
         }
         // Agustus
-        else if (specifiedDate == '05 Agustus') {
+        else if (specifiedDate == '5 Agustus') {
             $('.celetext').append('Memperingati Hari Dharma Wanita Nasional');
-            $('.celedate').append('05 Agustus' + years);
+            $('.celedate').append('5 Agustus' + years);
             $(this).show();
-        } else if (specifiedDate == '08 Agustus') {
+        } else if (specifiedDate == '8 Agustus') {
             $('.celetext').append('Memperingati Hari Ulang Tahun ASEAN');
-            $('.celedate').append('08 Agustus' + years);
+            $('.celedate').append('8 Agustus' + years);
             $(this).show();
         } else if (specifiedDate == '10 Agustus') {
             $('.celetext').append('Memperingati Hari Veteran Nasional dan Hari Kebangkitan Teknologi Nasional');
@@ -427,17 +427,17 @@ $(function() {
             $(this).show();
         }
         // September
-        else if (specifiedDate == '01 September') {
+        else if (specifiedDate == '1 September') {
             $('.celetext').append('Memperingati Hari Buruh dan Hari Polisi Wanita (Polwan)');
-            $('.celedate').append('01 September' + years);
+            $('.celedate').append('1 September' + years);
             $(this).show();
-        } else if (specifiedDate == '08 September') {
+        } else if (specifiedDate == '8 September') {
             $('.celetext').append('Memperingati Hari Aksara dan Hari Pamong Praja');
-            $('.celedate').append('08 September' + years);
+            $('.celedate').append('8 September' + years);
             $(this).show();
-        } else if (specifiedDate == '09 September') {
+        } else if (specifiedDate == '9 September') {
             $('.celetext').append('Memperingati Hari Olahraga Nasional');
-            $('.celedate').append('09 September' + years);
+            $('.celedate').append('9 September' + years);
             $(this).show();
         } else if (specifiedDate == '11 September') {
             $('.celetext').append('Memperingati Hari Radio Republik Indonesia (RRI) dan Hari Peringatan Serangan 11 September 2001');
@@ -481,21 +481,21 @@ $(function() {
             $(this).show();
         }
         // Oktober
-        else if (specifiedDate == '01 Oktober') {
+        else if (specifiedDate == '1 Oktober') {
             $('.celetext').append('Memperingati Hari Kesaktian Pancasila dan Hari Bea dan Cukai');
-            $('.celedate').append('01 Oktober' + years);
+            $('.celedate').append('1 Oktober' + years);
             $(this).show();
-        } else if (specifiedDate == '02 Oktober') {
+        } else if (specifiedDate == '2 Oktober') {
             $('.celetext').append('Memperingati Hari Batik Nasional');
-            $('.celedate').append('02 Oktober' + years);
+            $('.celedate').append('2 Oktober' + years);
             $(this).show();
-        } else if (specifiedDate == '04 Oktober') {
+        } else if (specifiedDate == '4 Oktober') {
             $('.celetext').append('Memperingati Hari Hewan Sedunia');
-            $('.celedate').append('04 Oktober' + years);
+            $('.celedate').append('4 Oktober' + years);
             $(this).show();
-        } else if (specifiedDate == '05 Oktober') {
+        } else if (specifiedDate == '5 Oktober') {
             $('.celetext').append('Memperingati Hari Tentara Nasional Indonesia (TNI)');
-            $('.celedate').append('05 Oktober' + years);
+            $('.celedate').append('5 Oktober' + years);
             $(this).show();
         } else if (specifiedDate == '10 Oktober') {
             $('.celetext').append('Memperingati Hari Kesehatan Jiwa');
@@ -541,14 +541,14 @@ $(function() {
 
         } 
         // November
-        else if (currentDate == '01 November') {
+        else if (currentDate == '1 November') {
             $('.celetext').append('Memperingati Hari Inovasi Indonesia');
-            $('.celedate').append('01 Oktober' + years);
+            $('.celedate').append('1 Oktober' + years);
             $(this).show();
 
-        } else if (currentDate == '05 November') {
+        } else if (currentDate == '5 November') {
             $('.celetext').append('Memperingati Hari Cinta Puspa dan Satwa Nasional');
-            $('.celedate').append('05 November' + years);
+            $('.celedate').append('5 November' + years);
             $(this).show();
 
         } else if (currentDate == '10 November') {
@@ -607,29 +607,29 @@ $(function() {
 
         }
         // Desember
-        else if (currentDate == '01 Desember') {
+        else if (currentDate == '1 Desember') {
             $('.celetext').append('Memperingati Hari AIDS Sedunia');
-            $('.celedate').append('01 Desember' + years);
+            $('.celedate').append('1 Desember' + years);
             $(this).show();
 
-        } else if (currentDate == '03 Desember') {
+        } else if (currentDate == '3 Desember') {
             $('.celetext').append('Memperingati Hari Penyandang Cacat Internasional');
-            $('.celedate').append('03 Desember' + years);
+            $('.celedate').append('3 Desember' + years);
             $(this).show();
 
-        } else if (currentDate == '04 Desember') {
+        } else if (currentDate == '4 Desember') {
             $('.celetext').append('Memperingati Hari Artileri');
-            $('.celedate').append('04 Desember' + years);
+            $('.celedate').append('4 Desember' + years);
             $(this).show();
 
-        } else if (currentDate == '05 Desember') {
+        } else if (currentDate == '5 Desember') {
             $('.celetext').append('Memperingati Hari Armada');
-            $('.celedate').append('05 Desember' + years);
+            $('.celedate').append('5 Desember' + years);
             $(this).show();
 
-        } else if (currentDate == '09 Desember') {
+        } else if (currentDate == '9 Desember') {
             $('.celetext').append('Memperingati Hari Anti Korupsi');
-            $('.celedate').append('09 Desember' + years);
+            $('.celedate').append('9 Desember' + years);
             $(this).show();
 
         } else if (currentDate == '10 Desember') {
