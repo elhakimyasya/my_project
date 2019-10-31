@@ -543,7 +543,7 @@ $(function() {
         // November
         else if (currentDate == '1 November') {
             $('.celetext').append('Memperingati Hari Inovasi Indonesia');
-            $('.celedate').append('1 Oktober' + years);
+            $('.celedate').append('1 November' + years);
             $(this).show();
 
         } else if (currentDate == '3 November') {
