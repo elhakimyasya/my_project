@@ -1,47 +1,31 @@
 function code_check() {
-    var focuscheck = document.getElementById("tarea");
+  document.getElementById("tarea");
 }
+
 function code_clear() {
-    var wtarea = document.getElementById("tarea");
-    wtarea.value = "";
+  document.getElementById("tarea").value = "";
 }
-function code_convert(event) {
-    var length = 1,
-    value = 0,
-    results = "",
-    Z = '>|\\s[^<>]*?>',
 
-    ctarea = document.getElementById("tarea"),
+function code_convert(b) {
+  var c = 1, f = 0, e = "";
+  b = document.getElementById("tarea");
+  var a = b.value;
+  a = a.replace(/<h([\d]).*?>[\n](.*?)<\/h([\d]).*?>/gi, function(a, d, b, g) {
+    return d != g ? a : (d > c ? e += Array(d - c + 1).join("<ol class='point" + c + "'>") : d < c && (e += Array(c - d + 1).join("</ol>")), f += 1, e += '<li><a href="#point' + f + '" title="' + b + '">' + b + "</a></li>", c = parseInt(d), "<h" + d + " id='point" + f + "'>" + b + "</h" + g + ">");
+});
 
-    toConvert = ctarea.value,
-    toConvert = toConvert.replace(/<h([\d]).*?>[\n](.*?)<\/h([\d]).*?>/gi, function(reffs, finals, canCreateDiscussions, undefined) {
-        return finals != undefined ? reffs : (finals > length ? results = results + (new Array(finals - length + 1)).join("<ol class='point" + length + "'>") : finals < length && (results = results + (new Array(length - finals + 1)).join("</ol>")), 
+  c && (e += Array(c - 1).join("</ol>"));
+  a = a.replace('<div id="elcTOC">\n</div>', '<div id="elcTOC">' + e + "</ol></div>");
+  a = a.replace(RegExp('<div class="separator( [^"]*?)?"(>|\\s[^<>]*?>)([\\s\\S]*?)<\\/div>', "g"), '<figure class="separator$1"$2$3\n</figure>');
+  a = a.replace(RegExp('<blockquote class="tr_bq( [^"]*?)?"(>|\\s[^<>]*?>)([\\s\\S]*?)<\\/blockquote>', "g"), '<blockquote class="tr_bq$1"$2$3\n</blockquote>');
+  a = a.replace("<script>elcTOC();\x3c/script>", "");
+  a = a.replace(/<b>(.*?)<\/b>/gi, "<strong>$1</strong>");
+  a = a.replace(/<i>(.*?)<\/i>/gi, "<em>$1</em>");
+  a = a.replace("https://draft.blogger.com/blogger.g?blogID=4156644495655521536", "");
+  a = a.replace("rel='nofollow'", "rel='nofollow noopener'");
+  a = a.replace("<br />\n<br />\n<br />\n<br />", "<br /><br />");
 
-            value = value + 1, 
-            results = results + ('<li><a href="#point' + value + '" title="' + canCreateDiscussions + '">' + canCreateDiscussions + "</a></li>"), 
-
-            length = parseInt(finals), "<h" + finals + " id='point" + value + "'>" + canCreateDiscussions + "</h" + undefined + ">")
-    });
-    if (length) {
-        results = results + (new Array(length - 1)).join("</ol>")
-    }
-
-    var toConvert = toConvert.replace('<div id="elcTOC">\n</div>', '<div id="elcTOC">' + results + '</ol></div>'),
-    toConvert = toConvert.replace(RegExp('<div class="separator( [^"]*?)?"(' + Z + ')([\\s\\S]*?)<\\/div>', 'g'), '<figure class="separator$1"$2$3\n</figure>'),
-    toConvert = toConvert.replace(RegExp('<blockquote class="tr_bq( [^"]*?)?"(' + Z + ')([\\s\\S]*?)<\\/blockquote>', 'g'), '<blockquote class="tr_bq$1"$2$3\n</blockquote>'),
-    toConvert = toConvert.replace('<script>elcTOC();<\/script>', ''),
-    toConvert = toConvert.replace(/<b>(.*?)<\/b>/gi, '<strong>$1</strong>'),
-
-    /*
-    Aku Mumet disini...
-    toConvert = toConvert.replace(/<br \/>\n(.*?)<br \/>/gi, '<p>\n$1\n</p>'),
-    toConvert = toConvert.replace(/<br \/>/gi, ''),
-    toConvert = toConvert.replace(/<p>\n\n<\/p>/gi, ''),
-    */
-
-    toConvert = toConvert.replace(/<i>(.*?)<\/i>/gi, '<em>$1</em>');
-
-    ctarea.value = toConvert;
-    ctarea.focus();
-    ctarea.select();
-}
+  b.value = a;
+  b.focus();
+  b.select();
+};
