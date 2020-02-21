@@ -1,0 +1,55 @@
+{
+  "manifest_version": 2,
+  "name": "Materia X-Perience",
+  "author": "Yasya El Hakim",
+  "description": "Material Design Themes",
+  "version": "1.2",
+
+  "icons": {
+    "16": "img/16.png",
+    "20": "img/20.png",
+    "32": "img/32.png",
+    "40": "img/40.png",
+    "64": "img/64.png",
+    "128": "img/128.png",
+    "256": "img/256.png"
+  },
+  "homepage_url": "https://www.elcreativeacademy.com/",
+  "browser_action": {
+    "default_icon": {
+      "16": "img/16.png",
+      "20": "img/20.png",
+      "32": "img/32.png",
+      "40": "img/40.png",
+      "64": "img/64.png",
+      "128": "img/128.png",
+      "256": "img/256.png"
+    },
+    "default_title": "Materia X-Perience",
+    "default_popup": "src/popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "storage",
+    "idle"
+  ],
+  "background": {
+    "scripts":[
+      "script.js"
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.blogger.com/*"
+      ],
+      "js": ["script.js"],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ],
+  "web_accessible_resources": [
+    "elcreative-materiaxperience.css"
+  ]
+}

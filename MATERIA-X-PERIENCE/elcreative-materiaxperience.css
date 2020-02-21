@@ -1,0 +1,389 @@
+:root {
+    --alabaster: #F7F7F7;
+    --denim: #125BBB;
+    --iron: #DADCE0;
+    --mirage: #171C24;
+    --royal-blue: #1A73E8;
+    --white: #fff;
+}
+
+/* Old Blogger */
+html,
+body,
+#ogbPageTitle,
+.K3JSBVB-j-j button,
+.K3JSBVB-j-j .K3JSBVB-j-F,
+.K3JSBVB-s-g,
+button,
+.K3JSBVB-j-q .K3JSBVB-j-g,
+input[type="text"],
+.blogg-title {
+    font-family: 'Google Sans', sans-serif !important;
+}
+#ogbPageTitle,
+.gb_0c {
+    padding: 0 !important
+}
+.gb_Za:not(.gb_Ld) {
+    font: 13px/27px 'Google Sans', Roboto, RobotoDraft, Arial, sans-serif
+}
+.blogg-tab.selected .K3JSBVB-s-e,
+.blogg-tab.selected .K3JSBVB-s-g,
+.blogg-tab.selected .K3JSBVB-B-c.selected .K3JSBVB-B-d,
+.K3JSBVB-j-j .K3JSBVB-j-F,
+.K3JSBVB-R-r,
+.K3JSBVB-Gb-c,
+.K3JSBVB-Gb-c a,
+.K3JSBVB-Gb-c a:visited,
+.K3JSBVB-Gb-c a:hover {
+    color: var(--royal-blue)
+}
+.blogg-fix .K3JSBVB-j-r,
+.editorHolder {
+    background-color: var(--white) !important
+}
+a.blogg-button.blogg-primary:visited,
+button.blogg-button[disabled],
+button.blogg-button:hover,
+button.blogg-button,
+.K3JSBVB-z-c:hover,
+.K3JSBVB-z-c,
+#ogbPageTitle,
+.blogg-menu-popup .popupContent,
+.K3JSBVB-eb-b tr table td:last-child,
+.K3JSBVB-fc-s,
+.K3JSBVB-F-i,
+a.blogg-button.blogg-primary,
+a.blogg-button.blogg-primary:hover,
+a.blogg-button.blogg-primary:focus,
+.K3JSBVB-l-c,
+.K3JSBVB-l-d {
+    border: none !important;
+}
+.blogg-fix .K3JSBVB-j-r,
+.bloggPostTable td:not(:last-child),
+.K3JSBVB-e-d .K3JSBVB-j-q,
+.K3JSBVB-eb-b tr td:last-child,
+.K3JSBVB-F-j table,
+.K3JSBVB-fc-h,
+.K3JSBVB-fc-y,
+.K3JSBVB-j-l,
+.K3JSBVB-K-D,
+.K3JSBVB-K-h {
+    border: .0625rem solid;
+}
+.blogg-fix .K3JSBVB-j-r,
+.bloggPostTable td:not(:last-child),
+.blogg-fix .K3JSBVB-j-r,
+.bloggPostTable td:not(:last-child),
+.K3JSBVB-e-d .K3JSBVB-j-q,
+.K3JSBVB-eb-b tr td:last-child,
+.K3JSBVB-F-j table,
+.K3JSBVB-fc-h,
+.K3JSBVB-fc-y,
+#postingHtmlBox,
+#postingComposeBox,
+.pagesTable td,
+.K3JSBVB-j-l,
+.blogg-commenttable td,
+.K3JSBVB-K-D,
+button.blogg-button.blogg-submit,
+.K3JSBVB-K-h,
+button.blogg-button.blogg-primary[disabled] {
+    border-color: var(--iron) !important;
+}
+.blogg-fix .K3JSBVB-j-r,
+.bloggPostTable td:not(:last-child),
+.K3JSBVB-fc-h {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+.blogg-fix .K3JSBVB-j-r:not(:last-child),
+.bloggPostTable td:not(:last-child),
+.pagesTable td:not(:last-child),
+.blogg-commenttable td:not(:last-child) {
+    border-right: .0625rem solid;
+}
+button.blogg-button,
+.K3JSBVB-z-c,
+.K3JSBVB-D-b,
+.blogg-menu-popup .popupContent,
+.K3JSBVB-eb-b tr td:last-child,
+.K3JSBVB-F-j table,
+.K3JSBVB-fc-y,
+a.blogg-button.blogg-primary,
+#postingHtmlBox,
+#postingComposeBox,
+.K3JSBVB-l-c,
+.K3JSBVB-l-d,
+.K3JSBVB-j-l,
+.K3JSBVB-n-d,
+.K3JSBVB-K-D,
+.K3JSBVB-K-h,
+.K3JSBVB-m-h {
+    border-radius: 8px !important;
+}
+.blogg-fix .K3JSBVB-j-r,
+.K3JSBVB-s-f:hover,
+.blogg-tab .K3JSBVB-B-c:hover,
+button.blogg-button,
+.K3JSBVB-z-c,
+button.blogg-button[disabled] {
+    background: none !important;
+}
+.K3JSBVB-p-b,
+.K3JSBVB-p-a,
+.rb .K3JSBVB-j-q,
+.K3JSBVB-fc-h {
+    padding: 10px;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+.rb .K3JSBVB-j-q {
+    overflow: inherit;
+    display: flex;
+    align-items: center;
+}
+.K3JSBVB-j-j {
+    top: inherit;
+}
+a:link,
+a:visited,
+.K3JSBVB-fc-h,
+button.blogg-button.blogg-primary,
+button.blogg-button.blogg-submit {
+    color: inherit
+}
+.K3JSBVB-c-d,
+.K3JSBVB-G-e {
+    display: block;
+}
+.gb_0c,
+.K3JSBVB-j-q .K3JSBVB-j-r,
+#topCountriesMapLabel,
+div[aria-labelledby="topCountriesMapLabel"],
+div[aria-labelledby="topCountriesLabel"] div:nth-child(2),
+.K3JSBVB-z-b button.blogg-button:nth-child(2)::after,
+.K3JSBVB-z-b button.blogg-button:last-child::after {
+    display: none
+}
+.gb_sa:not(.gb_ta) .gb_Od,
+a.blogg-button.blogg-primary:visited,
+a.blogg-button.blogg-primary,
+.K3JSBVB-G-e {
+    background-color: var(--royal-blue) !important;
+}
+.K3JSBVB-p-t,
+.menuButtonItem.hovered {
+    background-color: var(--alabaster);
+}
+#ogbPageTitle,
+.gb_sa svg,
+.gb_xc svg,
+.gb_0c .gb_8d,
+.gb_Jc .gb_8d,
+.K3JSBVB-l-c,
+.K3JSBVB-l-d {
+    color: var(--white) !important;
+}
+.gb_qe .gb_we,
+.gb_qe .gb_xe {
+    line-height: 20px;
+}
+.gb_Za:not(.gb_Ld),
+.blogg-menu-popup {
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12), 0 2px 4px -1px rgba(0, 0, 0, .2);
+}
+button.blogg-button:hover,
+.K3JSBVB-z-c:hover,
+button.blogg-button.selected {
+    box-shadow: none;
+}
+.rb .K3JSBVB-j-B,
+.rb .K3JSBVB-j-m,
+.K3JSBVB-y-b {
+    scrollbar-width: thin;
+}
+
+a.blogg-button.blogg-primary:visited,
+a.blogg-button.blogg-primary {
+    background: var(--royal-blue);
+}
+.K3JSBVB-c-h,
+.K3JSBVB-P-d,
+.K3JSBVB-l-c,
+.K3JSBVB-l-d,
+.K3JSBVB-L-f {
+    font-size: 16px;
+}
+.K3JSBVB-c-h,
+button.blogg-button.blogg-primary[disabled] {
+    color: var(--mirage) !important
+}
+.K3JSBVB-c-c,
+button.blogg-button,
+.K3JSBVB-j-q .K3JSBVB-j-g,
+.K3JSBVB-P-c,
+.K3JSBVB-t-h,
+.K3JSBVB-F-a,
+.K3JSBVB-fc-h,
+.K3JSBVB-fc-a,
+.K3JSBVB-F-d,
+a.blogg-button.blogg-primary,
+.K3JSBVB-t-h,
+.K3JSBVB-Yb-c,
+.K3JSBVB-fb-d,
+.K3JSBVB-kb-q,
+.K3JSBVB-K-pb,
+.K3JSBVB-K-D .K3JSBVB-K-E,
+.K3JSBVB-K-h {
+    font-size: 14px;
+}
+.K3JSBVB-c-c,
+.rb .K3JSBVB-j-C {
+    padding-top: 8px;
+}
+.K3JSBVB-c-d::before {
+    content: 'Labels : ';
+}
+.bloggPostTable .blogg-visible-on-select,
+.blogg-commenttable tr .blogg-visible-on-select,
+.pagesTable .blogg-visible-on-select {
+    visibility: visible
+}
+.bloggPostTable td,
+.blogg-commenttable td,
+.pagesTable td {
+    vertical-align: middle;
+}
+.bloggPostTable td:nth-child(3),
+.K3JSBVB-fc-a:last-child,
+.K3JSBVB-t-h,
+.pagesTable td:nth-child(3),
+.K3JSBVB-fb-d,
+.K3JSBVB-kb-q {
+    text-align: center;
+}
+.bloggPostTable .blogg-visible-on-select a,
+.bloggPostTable .blogg-visible-on-select,
+.blogg-tab .K3JSBVB-B-c span:hover,
+.pagesTable .blogg-visible-on-select a {
+    color: var(--denim)
+}
+.bloggPostTable .blogg-visible-on-select,
+.K3JSBVB-c-c,
+.pagesTable .blogg-visible-on-select {
+    opacity: 1
+}
+
+.blogg-tab.selected a.gwt-Anchor,
+.K3JSBVB-fc-r,
+.K3JSBVB-K-W tr:hover,
+.K3JSBVB-n-d {
+    background-color: rgba(66, 133, 244, 0.149);
+    border-radius: 0 25px 25px 0;
+}
+#ogbPageTitle::before {
+    content: 'Materia X-Perience | ';
+    font-weight: 500;
+}
+.gb_re {
+    margin-left: 8px;
+}
+.K3JSBVB-z-b button.blogg-menu-button .blogg-menu-button-content::after {
+    content: ' Label';
+    margin-left: 8px;
+}
+.K3JSBVB-z-b button.blogg-button.blogg-collapse-left:not(.blogg-collapse-right)::after {
+    content: ' Delete';
+    margin-left: 8px;
+}
+.K3JSBVB-z-e,
+.K3JSBVB-F-a,
+.K3JSBVB-t-h,
+.K3JSBVB-j-l {
+    padding: 10px 0
+}
+.rb .K3JSBVB-j-B {
+    overflow: hidden
+}
+.rb .K3JSBVB-j-B:hover {
+    overflow-y: auto;
+}
+.K3JSBVB-eb-b tr td:last-child,
+.K3JSBVB-fc-a,
+a.blogg-button.blogg-primary,
+.K3JSBVB-t-g input,
+input[type="text"],
+.K3JSBVB-l-c,
+.K3JSBVB-l-d {
+    padding: 5px 15px;
+}
+.K3JSBVB-fc-h,
+a.blogg-button.blogg-primary,
+.blogg-tab.selected .K3JSBVB-s-g,
+.K3JSBVB-B-c.selected {
+    text-shadow: none;
+    font-weight: 500
+}
+.blogg-button:not(.selected) {
+    font-weight: 400;
+}
+.K3JSBVB-j-q .K3JSBVB-j-u div {
+    display: flex;
+    align-items: center;
+}
+.editor .goog-toolbar .tr-icon::before {
+    content: url(https://1.bp.blogspot.com/-Vpnym7i7Uos/XkoUEpA3qWI/AAAAAAAAJmM/NwYJF8bzwvgkQiYw61K4yxQEOOGqt61XgCLcBGAsYHQ/s1600/editortoolbar-ltr.png);
+}
+.K3JSBVB-R-i {
+    padding-left: 55px;
+}
+.gwt-PopupPanel {
+    top: 90% !important;
+    bottom: 0;
+}
+.K3JSBVB-l-c,
+.K3JSBVB-l-d {
+    background-color: var(--mirage)
+}
+.K3JSBVB-l-c,
+.K3JSBVB-l-d {
+    margin: 0;
+}
+.blogg-tab .K3JSBVB-B-c {
+    padding-left: 57px;
+}
+.K3JSBVB-P-d a {
+    text-decoration: underline;
+}
+.rb .K3JSBVB-j-l {
+    justify-content: center;
+    display: flex
+}
+#editorframe,
+.pageElements {
+    width: 100%;
+}
+.K3JSBVB-Gb-d.selected .K3JSBVB-Gb-a {
+    border-color: var(--royal-blue) transparent transparent;
+}
+.K3JSBVB-Gb-d .K3JSBVB-Gb-a {
+    border-color: transparent transparent transparent var(--royal-blue);
+}
+.K3JSBVB-z-b button.blogg-button,
+.K3JSBVB-R-i button.blogg-button,
+.K3JSBVB-R-n button.blogg-button {
+    border-radius: 8px !important;
+    border: 1px solid var(--iron) !important;
+    margin-right: 5px;
+}
+.K3JSBVB-z-b button.blogg-button:hover,
+.K3JSBVB-R-i button.blogg-button:hover,
+.K3JSBVB-R-n button.blogg-button:hover {
+    border-color: var(--royal-blue) !important
+}
+.K3JSBVB-n-c {
+    max-width: 100%;
+}
